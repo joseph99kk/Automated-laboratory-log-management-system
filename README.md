@@ -59,11 +59,17 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
      - `/fan_intake?state=on/off` – Fan control
 
 
-## Embedded System Setup
-
-### Hardware Connections
-![Embedded Setup – ESP32 with BME280 and Relays](images/embedded_setup.jpg)
-> *The image above shows the ESP32 connected to BME280, relays, and fans via a breadboard.*
+### Hardware Components Used
+![Dummy Lab](images/embedded_setup.jpg)
+![3Fans](images/embedded_setup.jpg)
+![Relays](images/embedded_setup.jpg)
+![Thermo Heating Element](images/embedded_setup.jpg)
+![Breadboard](images/embedded_setup.jpg)
+![Jump wires](images/embedded_setup.jpg)
+![ESP32](images/embedded_setup.jpg)
+![Resistors](images/embedded_setup.jpg)
+![Embedded Setup](images/embedded_setup.jpg)
+![Embedded Setup](images/embedded_setup.jpg)
 
 
 ## Dashboard screenshoots
