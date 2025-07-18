@@ -60,15 +60,24 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
 
 
 ### Hardware Components Used
-![Dummy Lab](Images/Dummy.jpg)
-![3Fans](Images/Fans.jpg)
-![Relays](Images/Relay.jpg)
-![Thermo Heating Element](Images/Thermo.webp)
-![Breadboard](Images/Breadboard.jpeg)
-![Jump wires](Images/Jump.png)
-![ESP32](Images/ESP32.png)
-![Resistors](Images/Resistor.jpeg)
-![BME280 Sensor](Images/BME280.webp)
+<table>
+  <tr>
+    <td><img src="Images/Dummy.jpg" alt="Dummy Lab" width="200"/></td>
+    <td><img src="Images/Fans.jpg" alt="3Fans" width="200"/></td>
+    <td><img src="Images/Relay.jpg" alt="Relays" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="Images/Thermo.webp" alt="Thermo Heating Element" width="200"/></td>
+    <td><img src="Images/Breadboard.jpeg" alt="Breadboard" width="200"/></td>
+    <td><img src="Images/Jump.png" alt="Jump wires" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="Images/ESP32.png" alt="ESP32" width="200"/></td>
+    <td><img src="Images/Resistor.jpeg" alt="Resistors" width="200"/></td>
+    <td><img src="Images/BME280.webp" alt="BME280 Sensor" width="200"/></td>
+  </tr>
+</table>
+
 
 ## Dashboard screenshoots
 ![Dashboard](Images/Dashboard.png)
