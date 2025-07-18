@@ -60,21 +60,18 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
 
 
 ### Hardware Components Used
-![Dummy Lab](images/embedded_setup.jpg)
-![3Fans](images/embedded_setup.jpg)
-![Relays](images/embedded_setup.jpg)
-![Thermo Heating Element](images/embedded_setup.jpg)
-![Breadboard](images/embedded_setup.jpg)
-![Jump wires](images/embedded_setup.jpg)
-![ESP32](images/embedded_setup.jpg)
-![Resistors](images/embedded_setup.jpg)
-![Embedded Setup](images/embedded_setup.jpg)
-![Embedded Setup](images/embedded_setup.jpg)
-
+![Dummy Lab](Images/Dummy_Lab.jpg)
+![3Fans](Images/Fans.jpg)
+![Relays](Images/Relay.jpg)
+![Thermo Heating Element](Images/Thermo_Heating_Element.webp)
+![Breadboard](Images/Breadboard.jpeg)
+![Jump wires](Images/Jump_wires.png)
+![ESP32](Images/ESP32(2).png)
+![Resistors](Images/Resistor.jpeg)
+![BME280 Sensor](Images/BME280_sensor.webp)
 
 ## Dashboard screenshoots
-
-
+![Dashboard](Images/Dashboard.png)
 
 
 ## API Endpoints Summary
