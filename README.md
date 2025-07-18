@@ -57,6 +57,7 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
      - `/mode?type=auto/manual` – Switch modes
      - `/set_conditions?temp=25&humidity=60&pressure=1010` – Manual threshold
      - `/fan_intake?state=on/off` – Fan control
+----
 
 
 ### Hardware Components Used
@@ -105,13 +106,14 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
   </tr>
 </table>
 
+----
 
-
-## Dashboard screenshoots
+### Dashboard screenshoots
 ![Dashboard](Images/Dashboard.png)
 
+-----
 
-## API Endpoints Summary
+### API Endpoints Summary
 
 | Endpoint | Method | Function |
 |----------|--------|----------|
@@ -122,6 +124,7 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
 | `/fan_exhaust1?state=on/off` | GET | Manually control exhaust fan 1 |
 | `/fan_exhaust2?state=on/off` | GET | Manually control exhaust fan 2 |
 
+-----
 
 ## Visit Our Website [Group 24](https://katodesire63.github.io/Mini-Lab-Website/).
 
