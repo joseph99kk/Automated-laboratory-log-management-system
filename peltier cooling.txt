@@ -1,0 +1,52 @@
+#include "DHT.h"
+
+// Pin setup
+#define DHTPIN 4               
+#define DHTTYPE DHT22
+#define PELTIER_PIN 5         
+
+DHT dht(DHTPIN, DHTTYPE);
+
+// Control thresholds
+float coolingStartTemp = 30.0; 
+float coolingStopTemp  = 25.0; 
+
+bool peltierOn = false;
+
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+
+  pinMode(PELTIER_PIN, OUTPUT);
+  digitalWrite(PELTIER_PIN, LOW); 
+
+  Serial.println("TEC1-12706 Controller Started");
+}
+
+void loop() {
+  float temp = dht.readTemperature();
+
+  if (isnan(temp)) {
+    Serial.println("Failed to read from DHT sensor");
+    delay(2000);
+    return;
+  }
+
+  Serial.print("Current Temp: ");
+  Serial.print(temp);
+  Serial.println(" °C");
+
+  // Peltier control logic
+  if (temp > coolingStartTemp && !peltierOn) {
+    digitalWrite(PELTIER_PIN, HIGH);  
+    peltierOn = true;
+    Serial.println("Peltier ON");
+  } 
+  else if (temp < coolingStopTemp && peltierOn) {
+    digitalWrite(PELTIER_PIN, LOW);   
+    peltierOn = false;
+    Serial.println("Peltier OFF");
+  }
+
+  delay(2000);  
+}
