@@ -1,6 +1,88 @@
-# Automated-laboratory-log-management-system
-Biomedical laboratories are sites of intense patient sample testing activity that leads to presenting of results to patients either directly or through clinicians in form of lab reports. Irrespective of the level of specialization of these sites, adherence to international standards
-(ISO standard 15189:2022) that stipulate conditions for producing reliable test results and maintaining personnel safety is a condition for accreditation followed by annual audits so as to ascertain continued adherence. This involves monitoring ambient conditions in the lab, the
-equipment that are used to transport, store and process samples for which all this information has to be consistently and periodically monitored by the lab personnel as guided by sections 6, 7 and 8 of the aforementioned standard. In light of the recent funding gaps experienced by the
-healthcare system in the country, there is an emergent need to embrace automation of repetitive but important tasks, that are easy to forget by personnel due to smaller workforces at these sites and reduced morale in line with payment shortfalls, but very important for protecting the lab outputs’ quality. A simple modular system that can collect this information would be of great use at these sites which could potentially send data (both ambient and machine generated) to lab record management systems as well as be used as a basis for troubleshooting anomalies automatically or sending alerts to concerned parties (biosafety officers) in case of major failures that require human intervention and can jeopardize result
-accuracy and personnel safety. Additionary, for more sophisticated sites with dedicated HVAC systesm,additional control can be implemented so as to maintain proper working conditions as well. for this particular project,we sought to implement a negative pressure system as would be used in a biosafety level 3 and 4 laboratory
+# Automated Laboratory Log Management System (ALMS)
+
+ALMS is an embedded system designed to automate the monitoring and control of biomedical lab conditions, aligned with ISO 15189:2022 standards. The system leverages an ESP32 microcontroller to read environmental data and remotely control lab equipment through a mobile app.
+
+## Features
+
+- Embedded environmental monitoring (Temperature, Humidity, Pressure)
+- Auto/Manual mode switching
+- Thermo heating element(To stimulate changes in the dummy Lab)
+- Fan control via relays
+- Real-time data via WebSocket
+- Local web server (ESP32 Access Point)
+- Mobile app dashboard interface
+
+
+## Procedure for Running the Code
+
+1. **Hardware Setup**
+   - Connect **BME280 sensor** to ESP32:
+     - SDA → GPIO 21  
+     - SCL → GPIO 22  
+     - VCC → 3.3V  
+     - GND → GND
+   - Connect **relays**:
+     - GPIO 5 → Intake Fan  
+     - GPIO 4 → Exhaust Fan 1  
+     - GPIO 15 → Exhaust Fan 2  
+   - Power all components using a breadboard with jumper wires and resistors.
+
+2. **Install Arduino IDE & ESP32 Board Support**
+   - Add this URL to *Preferences > Additional Board URLs*:
+     ```
+     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+     ```
+   - Then go to *Tools > Board > Boards Manager* and install **ESP32 by Espressif Systems**.
+
+3. **Install Required Libraries**
+   - From Arduino Library Manager, install:
+     - `Adafruit BME280`
+     - `Adafruit Unified Sensor`
+     - `WebSocketsServer` by Markus Sattler
+
+4. **Upload the Code**
+   - Connect ESP32 via USB.
+   - Choose board: `ESP32 Dev Module`  
+   - Select the correct COM port.  
+   - Paste and upload the provided code.
+
+5. **Connect to ESP32 Access Point**
+   - SSID: `ESP_Conditions`
+   - Password: `12345678`
+
+6. **Control via Mobile App**
+   - Connect app to `http://192.168.4.1`
+   - Use endpoints:
+     - `/data` – Sensor data
+     - `/mode?type=auto/manual` – Switch modes
+     - `/set_conditions?temp=25&humidity=60&pressure=1010` – Manual threshold
+     - `/fan_intake?state=on/off` – Fan control
+
+
+## Embedded System Setup
+
+### Hardware Connections
+![Embedded Setup – ESP32 with BME280 and Relays](images/embedded_setup.jpg)
+> *The image above shows the ESP32 connected to BME280, relays, and fans via a breadboard.*
+
+
+## Dashboard screenshoots
+
+
+
+
+## API Endpoints Summary
+
+| Endpoint | Method | Function |
+|----------|--------|----------|
+| `/data` | GET | Get current sensor readings |
+| `/mode?type=auto/manual` | GET | Switch between auto/manual modes |
+| `/set_conditions?temp=..&humidity=..&pressure=..` | GET | Set target conditions (manual mode) |
+| `/fan_intake?state=on/off` | GET | Manually control intake fan |
+| `/fan_exhaust1?state=on/off` | GET | Manually control exhaust fan 1 |
+| `/fan_exhaust2?state=on/off` | GET | Manually control exhaust fan 2 |
+
+
+## Visit Our Website [Group 24](https://katodesire63.github.io/Mini-Lab-Website/).
+
+
