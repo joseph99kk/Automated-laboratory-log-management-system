@@ -1,0 +1,48 @@
+#include "DHT.h"
+
+#define DHTPIN 4            
+#define DHTTYPE DHT22       
+#define RELAY_PIN 5        
+
+DHT dht(DHTPIN, DHTTYPE);
+
+// Temperature thresholds (in Celsius)
+float setTempLow = 20.0;    
+float setTempHigh = 25.0;   
+
+bool heaterState = false;   
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+
+  pinMode(RELAY_PIN, OUTPUT);
+  digitalWrite(RELAY_PIN, HIGH); 
+
+  Serial.println("Heater control system started");
+}
+
+void loop() {
+  float temp = dht.readTemperature();
+
+  if (isnan(temp)) {
+    Serial.println("Failed to read from DHT sensor!");
+    delay(2000);
+    return;
+  }
+
+  Serial.print("Current Temperature: ");
+  Serial.print(temp);
+  Serial.println(" °C");
+
+  if (temp < setTempLow && !heaterState) {
+    digitalWrite(RELAY_PIN, LOW); // Relay ON
+    heaterState = true;
+    Serial.println("Heater turned ON");
+  } else if (temp > setTempHigh && heaterState) {
+    digitalWrite(RELAY_PIN, HIGH); // Relay OFF
+    heaterState = false;
+    Serial.println("🧊 Heater turned OFF");
+  }
+
+  delay(2000); 
+}
