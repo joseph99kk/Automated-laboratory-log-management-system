@@ -62,21 +62,49 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
 ### Hardware Components Used
 <table>
   <tr>
-    <td><img src="Images/Dummy.jpg" alt="Dummy Lab" width="200"/></td>
-    <td><img src="Images/Fans.jpg" alt="3Fans" width="200"/></td>
-    <td><img src="Images/Relay.jpg" alt="Relays" width="200"/></td>
+    <td align="center">
+      <p><strong>Dummy Lab</strong></p>
+      <img src="Images/Dummy.jpg" alt="Dummy Lab" width="200"/>
+    </td>
+    <td align="center">
+      <p><strong>3 Fans</strong></p>
+      <img src="Images/Fans.jpg" alt="3Fans" width="200"/>
+    </td>
+    <td align="center">
+      <p><strong>Relay Module</strong></p>
+      <img src="Images/Relay.jpg" alt="Relays" width="200"/>
+    </td>
   </tr>
   <tr>
-    <td><img src="Images/Thermo.webp" alt="Thermo Heating Element" width="200"/></td>
-    <td><img src="Images/Breadboard.jpeg" alt="Breadboard" width="200"/></td>
-    <td><img src="Images/Jump.png" alt="Jump wires" width="200"/></td>
+    <td align="center">
+      <p><strong>Thermo Element</strong></p>
+      <img src="Images/Thermo.webp" alt="Thermo Heating Element" width="200"/>
+    </td>
+    <td align="center">
+      <p><strong>Breadboard</strong></p>
+      <img src="Images/Breadboard.jpeg" alt="Breadboard" width="200"/>
+    </td>
+    <td align="center">
+      <p><strong>Jump Wires</strong></p>
+      <img src="Images/Jump.png" alt="Jump wires" width="200"/>
+    </td>
   </tr>
   <tr>
-    <td><img src="Images/ESP32.png" alt="ESP32" width="200"/></td>
-    <td><img src="Images/Resistor.jpeg" alt="Resistors" width="200"/></td>
-    <td><img src="Images/BME280.webp" alt="BME280 Sensor" width="200"/></td>
+    <td align="center">
+      <p><strong>ESP32 Board</strong></p>
+      <img src="Images/ESP32.png" alt="ESP32" width="200"/>
+    </td>
+    <td align="center">
+      <p><strong>Resistors</strong></p>
+      <img src="Images/Resistor.jpeg" alt="Resistors" width="200"/>
+    </td>
+    <td align="center">
+      <p><strong>BME280 Sensor</strong></p>
+      <img src="Images/BME280.webp" alt="BME280 Sensor" width="200"/>
+    </td>
   </tr>
 </table>
+
 
 
 ## Dashboard screenshoots
