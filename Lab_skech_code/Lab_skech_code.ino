@@ -49,7 +49,7 @@ void setup() {
   delay(1000);
 
   if (!bme.begin(0x76)) {
-    Serial.println("❌ Could not find BME280 sensor!");
+    Serial.println("Could not find BME280 sensor!");
     while (1);
   }
 
@@ -89,11 +89,11 @@ void setup() {
       String mode = httpServer.arg("type");
       if (mode == "auto") {
         isAutoMode = true;
-        Serial.println("🟢 AUTO mode");
+        Serial.println("AUTO mode");
         httpServer.send(200, "text/plain", "Mode set to AUTO");
       } else if (mode == "manual") {
         isAutoMode = false;
-        Serial.println("🟠 MANUAL mode");
+        Serial.println("MANUAL mode");
         httpServer.send(200, "text/plain", "Mode set to MANUAL");
       } else {
         httpServer.send(400, "text/plain", "Invalid mode");
@@ -154,7 +154,7 @@ void setup() {
     if (httpServer.hasArg("temp")) targetTemp = httpServer.arg("temp").toFloat();
     if (httpServer.hasArg("humidity")) targetHumidity = httpServer.arg("humidity").toFloat();
     if (httpServer.hasArg("pressure")) targetPressure = httpServer.arg("pressure").toFloat();
-    Serial.printf("📥 New manual conditions -> Temp: %.1f, Humidity: %.1f, Pressure: %.1f\n", targetTemp, targetHumidity, targetPressure);
+    Serial.printf("New manual conditions -> Temp: %.1f, Humidity: %.1f, Pressure: %.1f\n", targetTemp, targetHumidity, targetPressure);
     httpServer.send(200, "text/plain", "Manual conditions updated");
   });
 
@@ -213,7 +213,7 @@ void updateSensorData() {
     alertMessage = alertMessage.substring(0, alertMessage.length() - 2);
   }
 
-  Serial.printf("🌡 Temp: %.1f°C | 💧 Humidity: %.1f%% | ⬇ Pressure: %.1f hPa | AQ: %.1f\n",
+  Serial.printf("Temp: %.1f°C | Humidity: %.1f%% | Pressure: %.1f hPa | AQ: %.1f\n",
                 currentTemperature, currentHumidity, currentPressure, currentAirQuality);
 }
 
@@ -244,7 +244,7 @@ void sendSensorData() {
   json += "\"mode\":\"" + String(isAutoMode ? "auto" : "manual") + "\"";
   json += "}";
   webSocket.broadcastTXT(json);
-  Serial.println("📤 Sent: " + json);
+  Serial.println("Sent: " + json);
 }
 
 void webSocketEvent(uint8_t client_num, WStype_t type, uint8_t * payload, size_t length) {
