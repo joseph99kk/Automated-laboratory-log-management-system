@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_set_temp" android:title="Set Temperature" />
+    <item android:id="@+id/action_set_humidity" android:title="Set Humidity" />
+    <item android:id="@+id/action_set_pressure" android:title="Set Pressure" />
+</menu>

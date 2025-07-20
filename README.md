@@ -128,4 +128,3 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
 
 ## Visit Our Website [Group 24](https://katodesire63.github.io/Mini-Lab-Website/).
 
-
