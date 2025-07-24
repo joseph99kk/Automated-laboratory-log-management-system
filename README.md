@@ -6,7 +6,7 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
 
 - Embedded environmental monitoring (Temperature, Humidity, Pressure)
 - Auto/Manual mode switching
-- Thermo heating element(To stimulate changes in the dummy Lab)
+- Thermo heating element and Peltier TECI-12706 (To stimulate environmental changes in the dummy Lab)
 - Fan control via relays
 - Real-time data via WebSocket
 - Local web server (ESP32 Access Point)
@@ -44,10 +44,10 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
    - Connect ESP32 via USB.
    - Choose board: `ESP32 Dev Module`  
    - Select the correct COM port which is COM 4.  
-   - Write or upload ypur code.
+   - Write your code.
 
 5. **Connect to ESP32 Access Point**
-   - SSID(Service Set Identifie): `ESP_Conditions`. This is the WiFi name you see when connecting the device.
+   - SSID(Service Set Identifier): `ESP_Conditions`. This is the WiFi name you see when connecting the device.
    - Password: `12345678`
 
 6. **Control via Mobile App**
