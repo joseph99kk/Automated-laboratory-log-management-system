@@ -1,5 +1,6 @@
 # Automated Laboratory Log Management System (ALMS)
 
+
 ALMS is an embedded system designed to automate the monitoring and control of biomedical lab conditions, aligned with ISO 15189:2022 standards. The system leverages an ESP32 microcontroller to read environmental data and remotely control lab equipment through a mobile app.
 ----
 
