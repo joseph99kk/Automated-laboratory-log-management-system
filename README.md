@@ -28,7 +28,7 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
    - Power all components using a breadboard with jumper wires and resistors.
 
 2. **Install Arduino IDE & ESP32 Board Support**
-   - Add this URL to *Preferences > Additional Board URLs*:
+
      ```
      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
      ```
@@ -39,6 +39,7 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
      - `Adafruit BME280`
      - `Adafruit Unified Sensor`
      - `WebSocketsServer` by Markus Sattler
+     - '
 
 4. **Upload the Code**
    - Connect ESP32 via USB.
