@@ -108,7 +108,7 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
     </td>
     <td align="center">
       <p><strong>DHT11 Sensor</strong></p>
-      <img src="Images/DHT11.jpeg" alt="DHT11 Sensor" width="200"/>
+      <img src="Images/DHTT.jpeg" alt="DHT11 Sensor" width="200"/>
     </td>
   </tr>
 </table>
