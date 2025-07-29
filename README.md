@@ -106,6 +106,10 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
       <p><strong>BME280 Sensor</strong></p>
       <img src="Images/BME280.webp" alt="BME280 Sensor" width="200"/>
     </td>
+    <td align="center">
+      <p><strong>DHT11 Sensor</strong></p>
+      <img src="Images/DHT.jpeg" alt="DHT11 Sensor" width="200"/>
+    </td>
   </tr>
 </table>
 
