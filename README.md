@@ -40,17 +40,23 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
    - From Arduino Library Manager, install:
      - `Adafruit BME280`
      - `Adafruit Unified Sensor`
-     - `WebSocketsServer` by Markus Sattler
+     - `WebSocketsServer`
+     - `Wire.h`
+     - 
      - '
 
 4. **Upload the Code**
    - Connect ESP32 via USB.
    - Choose board: `ESP32 Dev Module`  
    - Select the correct COM port: `COM 11`  
+<<<<<<< HEAD
    - Write or upload your code.
+=======
+   - Write or upload ypur code.
+>>>>>>> be16ac5 (Update Lab sketch code and README)
 
 5. **Connect to ESP32 Access Point**
-   - SSID(Service Set Identifie): `ESP_Conditions`. This is the WiFi name you see when connecting the device.
+   - SSID(Service Set Identifie): `Nuero Vent`. This is the WiFi name you see when connecting the device.
    - Password: `12345678`
 
 6. **Control via Mobile App**
