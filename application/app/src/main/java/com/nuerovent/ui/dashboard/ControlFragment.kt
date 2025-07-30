@@ -25,7 +25,7 @@ class ControlFragment : Fragment() {
 
     private val controlItems = mutableListOf(
         ControlItem("Control Mode", false, " Auto / Manual"),
-        ControlItem("Extractor Fan", false, "Manual mode"),
+        ControlItem("Radiator Fan", false, "Manual mode"),
         ControlItem("Heating Unit", false, "Scheduled"),
         ControlItem("Cooling Unit", false, "Idle")
     )
@@ -51,7 +51,7 @@ class ControlFragment : Fragment() {
             controlItems[position].isChecked = isChecked
             when (controlItems[position].label) {
                 "Control Mode" -> toggleControlMode(isChecked)
-                "Extractor Fan" -> if (controlItems[0].isChecked) toggleFan(isChecked) else resetToggle(position)
+                "Radiator Fan" -> if (controlItems[0].isChecked) toggleFan(isChecked) else resetToggle(position)
                 "Heating Unit" -> if (controlItems[0].isChecked) toggleHeating(isChecked) else resetToggle(position)
                 "Cooling Unit" -> if (controlItems[0].isChecked) toggleCooling(isChecked) else resetToggle(position)
             }

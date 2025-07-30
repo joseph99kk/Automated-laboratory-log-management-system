@@ -11,9 +11,10 @@ import com.nuerovent.ui.DashboardActivity
 
 class MainActivity : AppCompatActivity() {
 
+    // ✅ Data class to hold admin credentials
     data class Admin(val email: String, val phone: String)
 
-    // ✅ Five hardcoded admin credentials (email + phone)
+    // ✅ Predefined list of admin credentials
     private val adminCredentials = listOf(
         Admin("admin1@nuerovent.com", "1111"),
         Admin("admin2@nuerovent.com", "2222"),
@@ -26,21 +27,28 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // ✅ Reference UI elements
         val emailInput = findViewById<EditText>(R.id.emailInput)
-        val phoneInput = findViewById<EditText>(R.id.securityCodeInput) // your layout uses this id
+        val phoneInput = findViewById<EditText>(R.id.securityCodeInput)
         val loginButton = findViewById<Button>(R.id.loginButton)
 
         loginButton.setOnClickListener {
             val enteredEmail = emailInput.text.toString().trim()
             val enteredPhone = phoneInput.text.toString().trim()
 
-            val matchedAdmin = adminCredentials.find {
+            if (enteredEmail.isEmpty() || enteredPhone.isEmpty()) {
+                Toast.makeText(this, "Please enter both email and code", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            val isAdmin = adminCredentials.any {
                 it.email.equals(enteredEmail, ignoreCase = true) && it.phone == enteredPhone
             }
 
-            if (matchedAdmin != null) {
-                Toast.makeText(this, "Welcome ${matchedAdmin.email}", Toast.LENGTH_SHORT).show()
+            if (isAdmin) {
+                Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, DashboardActivity::class.java))
+                finish() // Optional: prevent back-navigation to login screen
             } else {
                 Toast.makeText(this, "Invalid email or code", Toast.LENGTH_SHORT).show()
             }

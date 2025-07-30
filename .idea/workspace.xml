@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63737d8f-3f40-47d7-89f3-55d1420e6b52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/appInsightsSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/deviceManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/studiobot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.kotlin/errors/errors-1751964385274.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Packet_Tracer_Commands.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/alert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/control.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/green_alerts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/green_control.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/green_stats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/grey_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/home_drawable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ic_air_quality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ic_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ic_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ic_humidity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ic_pressure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/item_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/log_out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/new_humidity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/new_pressure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/new_temp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/option_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/power.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/reboot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/rounded_button_black.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/rounded_button_white.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/rounded_edittext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/starts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/stats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/tab_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/temp_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/top_bar_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/drawable/ventilation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/activity_audit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/activity_options.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/fragment_alerts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/fragment_control.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/fragment_stats.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/item_audit_row.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/item_control.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/item_default_condition.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/layout_alert.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/layout_home_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/layout/option_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/menu/bottom_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/menu/condition_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/esp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/espdummy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;koturaderrick&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joseph99kk/Automated-laboratory-log-management-system.git&quot;,
+    &quot;accountId&quot;: &quot;7e3fd294-2672-4600-91de-62c8e6422045&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="30MLTprvGIsGWFRmJDYZysw5i8z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Vaal/Desktop/Automated-laboratory-log-management-system",
+    "settings.editor.selected.configurable": "preferences.language.Kotlin",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63737d8f-3f40-47d7-89f3-55d1420e6b52" name="Changes" comment="" />
+      <created>1753432505671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753432505671</updated>
+    </task>
+    <servers />
+  </component>
+</project>

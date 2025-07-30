@@ -13,7 +13,7 @@ class AlertViewModel : ViewModel() {
 
     private val handler = Handler(Looper.getMainLooper())
 
-    fun addAlertWithTimeout(alert: Alert, timeout: Long = 10_000L) {
+    fun addAlertWithTimeout(alert: Alert, timeout: Long = 60_000L) {
         val currentList = _alerts.value ?: emptyList()
         _alerts.value = currentList + alert
 

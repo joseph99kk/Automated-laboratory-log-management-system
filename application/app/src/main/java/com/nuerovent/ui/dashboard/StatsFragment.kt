@@ -36,7 +36,7 @@ class StatsFragment : Fragment() {
     private fun initViews() {
         setupChart(binding.lineChartTemp, emptyList(), "Temperature (°C)", Color.RED, 15f, 35f)
         setupChart(binding.lineChartHumidity, emptyList(), "Humidity (%)", Color.BLUE, 20f, 100f)
-        setupChart(binding.lineChartPressure, emptyList(), "Pressure (hPa)", Color.MAGENTA, 970f, 1050f)
+        setupChart(binding.lineChartPressure, emptyList(), "Pressure (hPa)", Color.MAGENTA, 880f, 885f)
         setupChart(binding.lineChartAirQuality, emptyList(), "Air Quality Index", Color.GREEN, 0f, 200f) // Added AQ chart
     }
 
