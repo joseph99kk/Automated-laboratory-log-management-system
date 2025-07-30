@@ -46,8 +46,8 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
 4. **Upload the Code**
    - Connect ESP32 via USB.
    - Choose board: `ESP32 Dev Module`  
-   - Select the correct COM port: `COM 4`  
-   - Write or upload ypur code.
+   - Select the correct COM port: `COM 11`  
+   - Write or upload your code.
 
 5. **Connect to ESP32 Access Point**
    - SSID(Service Set Identifie): `ESP_Conditions`. This is the WiFi name you see when connecting the device.
