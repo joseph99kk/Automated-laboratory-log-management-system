@@ -41,7 +41,9 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
      - `Adafruit BME280`
      - `Adafruit Unified Sensor`
      - `WebSocketsServer` by Markus Sattler
-     - '
+     - `WiFi`
+     -`Webserve`
+     - `Wire`
 
 4. **Upload the Code**
    - Connect ESP32 via USB.
@@ -50,8 +52,8 @@ ALMS is an embedded system designed to automate the monitoring and control of bi
    - Write or upload your code.
 
 5. **Connect to ESP32 Access Point**
-   - SSID(Service Set Identifie): `ESP_Conditions`. This is the WiFi name you see when connecting the device.
-   - Password: `12345678`
+   - SSID(Service Set Identifier): `Nuero Vent`.
+   -Password: `12345678`
 
 6. **Control via Mobile App**
    - Connect app to `http://192.168.4.1`
