@@ -17,9 +17,9 @@ WebServer server(80);
 WebSocketsServer webSocket = WebSocketsServer(81);
 
 // ========== Environment Variables ==========
-float targetTemp = 26.0;
-float targetHumidity = 65.0;
-float targetPressure = 880.1;
+float targetTemp = 30.0;
+float targetHumidity = 64.0;
+float targetPressure = 882.1;
 
 // ========== Current Sensor Readings ==========
 float currentInsideTemp = 0.0;
